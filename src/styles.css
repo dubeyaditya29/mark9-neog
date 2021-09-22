@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+.App {
+  font-family: "Quicksand", "sans-serif";
+  text-align: center;
+}
+* {
+  background-color: #d7e9f7;
+}
+button {
+  padding: 10px 60px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+button:hover {
+  border-bottom: 2px solid black;
+}
