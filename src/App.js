@@ -10,7 +10,7 @@ export default function App() {
     "The subtle art of not giving a f*ck",
     "Eat That frog"
   ];
-  const [list, setList] = useState([]);
+  const [list, setList] = useState(movies);
   const clickHandler = (value) => {
     setList(value);
   };
